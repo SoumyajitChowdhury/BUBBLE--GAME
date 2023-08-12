@@ -8,7 +8,7 @@ function inctraseScore(){
 function runTimer(){
     let timerint = setInterval(function(){
         if(timer>0){
-            timer--;
+            timer=timer-1;
             document.querySelector("#timerVal").textContent = timer;
         }
         else{
